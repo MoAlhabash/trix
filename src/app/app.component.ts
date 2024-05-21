@@ -1,28 +1,7 @@
 import { ChangeDetectorRef, Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { MatGridListModule } from '@angular/material/grid-list';
-import {MatInputModule} from '@angular/material/input';
-import {MatFormFieldModule} from '@angular/material/form-field';
-import {FormsModule} from '@angular/forms';
-import {MatIconModule} from '@angular/material/icon';
-import {MatButtonModule} from '@angular/material/button';
-import { CommonModule } from '@angular/common';
-import {MatCheckboxModule} from '@angular/material/checkbox';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [
-    RouterOutlet, 
-    MatGridListModule, 
-    MatInputModule,
-    MatFormFieldModule,
-    MatButtonModule, 
-    MatIconModule,
-    FormsModule,
-    CommonModule,
-    MatCheckboxModule
-  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
